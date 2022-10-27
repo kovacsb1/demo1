@@ -1,3 +1,5 @@
 import numpy as np
 
-print(f"Your number is {np.random.randint(100)}")
+limit = input("Add max: ")
+
+print(f"Your number is {np.random.randint(limit)}")

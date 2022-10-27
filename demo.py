@@ -1,5 +1,9 @@
 import numpy as np
 
-limit = input("Add max: ")
+try:
+    limit = input("Add max: ")
+    print(f"Your number is {np.random.randint(limit)}")
+except:
+    print("Please type a number")
 
-print(f"Your number is {np.random.randint(limit)}")
+
